@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #ffccff, #ffff99); /* Degradado rosa y amarillo girasol */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    :root {
+        --color-bg: linear-gradient(to top, #ff69b4, #fff425); 
+        --line-color: linear-gradient(to left top, #82ff86 20%, #144425, #104e1c);
+        --flower-center: radial-gradient(circle, #000, #ff5e00);
+        --leaf-color: radial-gradient(circle, #82ff86, #104e1c);
+        --petal-color: radial-gradient(circle, #ff5e00, #ffbb00);
+    
+
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    color: #ff69b4; /* Color rosa pastel */
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ffd700; /* Color amarillo girasol */
+    color: #ff69b4; /* Color rosa pastel */
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ff69b4; /* Cambia a rosa pastel al pasar el ratón */
+    color: #ffd700; /* Cambia a amarillo girasol al pasar el ratón */
+}
+.light{
+    position: absolute;
+    bottom: 0vmin;
+    width: 1vmin;
+    height: 1vmin;
+    background-color: rgb(255, 251, 0);
+    border-radius: 50%;
+    filter: blur(0.2vmin);
+    animation: light-ans-background 7s linear infinite backwards;
+}
